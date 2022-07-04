@@ -1,5 +1,5 @@
 //Welcome Message
-alert("Welcome! \nSimple JavaScript Calculator")
+alert("Welcome! \n\nSimple JavaScript Calculator")
 
 //An array/list conataining maths operators/signs
 let signsArray = ['%', '*', '-', '+', '/', '**']
@@ -46,7 +46,7 @@ function myCalc() {
                 }
                 //addition
                 else if (sign === "+") {
-                    alert(num1 + num2);
+                    alert(num1 * 1 + (num2 * 1))
                 }
                 //division
                 else if (sign === "/") {
